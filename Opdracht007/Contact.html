@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="Stylesheet2.css">
+
+<head>
+  <title> Contactpagina </title>
+</head>
+
+<body>
+  <header>
+    <h1>Neem contact op</h1>
+    <h3>Vul het formulier in om contact op te nemen</h3>
+  </header>
+
+  <main>
+    <div>
+      <p id="abcd">Hier start het formulier met de invulvelden. Vul hier alle benodigde informatie in om contact op
+        te kunnen nemen</p>
+      <form name="contact" method="POST" data-netlify="true">
+       <label>Naam</label>              <input type="name"> <br>
+       <label>E-mail</label>            <input type="email"> <br>
+       <label>Telefoonnummer</label>    <input type="tel"> <br>
+       <label>Leeftijd</label>          <input type="date"> <br>
+       <p>Wat is je geslacht<br>
+         <input type="radio" id="man" name="gender" value="Man">
+         <label for="man">Man</label><br>
+         <input type="radio" id="vrouw" name="gender" value="Vrouw">
+         <label for="vrouw">Vrouw</label></p>
+
+       <p>Wat is je favoriete cuisine?<br>
+       <input type="checkbox" name="cuisine"> <label>Frans</label> <br>
+       <input type="checkbox" name="cuisine"> <label>Italiaans</label><br>
+       <input type="checkbox" name="cuisine"> <label>Spaans</label><br>
+       <input type="checkbox" name="cuisine"> <label>Arabisch</label><br></p>
+
+      <p><label>Wat is je favoriete kleur schort?</label>
+       <input type="color"></p> 
+
+       <label>Biografie</label> <input type="text"><br>
+       <p><label>Upload hier je laatste recept </label><input type="file"></p>
+       <p><label>URL naar je laatste recepten website </label><input type="URL"></p>
+
+        <p>Ging er iets niet goed en wil je opnieuw beginnen? Klik hier dan op de "Opnieuw instellen" button <input type="reset"></p>
+        <p>Heb je alle velden ingevuld en wil je het formulier versturen? Verzend deze dan met de "Verzenden" button <input type="submit"></p>
+        
+                                        
+      </form>
+    </div>
+
+    <div>
+      <p> <a href="Index.html"> Ga weer terug naar de hoofdpagina</a> </p>
+    </div>
+  </main>
+
+</body>
+
+</html>
