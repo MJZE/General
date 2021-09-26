@@ -1,0 +1,18 @@
+@media screen {
+    body{background-color: rgb(163, 131, 142); margin:15px}
+
+    h1{margin:15px}
+
+    .img{max-width: 200px;}
+    .img2{max-width: 750px}
+
+    .container {border-color: white; border-style: solid; border-width: 3px; width: 85%; margin: 15px}
+        .container span {display: inline-block;vertical-align: top;padding-top: 10px;}
+        .small-box {width:30%; padding: 10px; margin-left: 5px;}
+        .big-box {width: 60%; padding: 10px; padding-top: 25px;}
+        #abcd{text-align: center;}
+}
+
+@media (min-width:800px){
+    .container {max-width: 45%}
+}

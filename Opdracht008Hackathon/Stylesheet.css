@@ -1,0 +1,53 @@
+@media screen {
+    body {background-color: rgb(157, 170, 157); font-family: Verdana, Geneva, Tahoma, sans-serif;margin-left: 10px; margin-right: 10px;}
+        body p {font-size: 10pt;} 
+
+    header{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        h1 {text-align: center; margin-top: 1em; margin-bottom: 2mm; margin-left: 10px; margin-left: 10px;}
+        header p {font-style: italic; font-size: 10pt;margin-left: 10px; margin-right: 10px;margin-bottom: 10px;}
+
+    nav {border-style: solid; border-color:black; 
+        margin-left: 10px; margin-right: 10px; margin-top: 15px; margin-bottom: 15px;
+        background-color: rgba(29, 41, 29, 0.274);}
+            li {margin-left: 2mm; }
+    
+    h3 {font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14pt; color: rgb(47, 54, 49); margin-left: 10px; margin-right: 10px; text-align:center }
+    body div p {text-align: center}
+    body div img {max-width:200px; min-width:50px; width: auto;}
+
+    .container {border-color: black; border-style:solid; border-width: 3px; margin:10px; width: auto; height: fit-content; padding:2px}
+        .container span {display: inline-block; width: 45%;}
+        .smallbox {text-align: center; margin-left: 1mm;}
+        .bigbox {margin-left: 3mm;}
+
+    section{background-color: rgb(220, 231, 222); padding:1em; margin: 10px; border-color: black;border-style: solid; text-align: center;} 
+        iframe {width:400px; height:220px}
+    
+    h4{margin: 15px; text-align: center;}
+    button {background-color: rgba(208, 221, 216, 0.575); padding: 2px; text-align: center;}
+    
+     footer {margin: 0; margin-top:10px; padding:2em; background-color: rgb(84, 102, 92)}
+     footer p {font-size: 7pt;}
+   
+
+}
+
+@media (min-width:600px) {
+    body{background-color: rgb(252, 235, 227) ;margin-left: 15px; margin-left: 15px;}
+        body p {font-size: 11pt;}  
+
+    .container {border:none; margin:10px; width: 30%; height: fit-content; padding:10px; vertical-align: text-top; text-align: center;
+        display: inline-block;}
+        .container span {width: 100%; vertical-align: text-bottom;}
+        .smallbox {text-align: center; margin-left: 1mm;}
+        .bigbox {margin-left: 1mm;}
+        body div img {max-width:200px; min-width:50px; width: auto;}
+
+        section{background-color: rgb(201, 122, 122); padding:1em; margin: 10px; border-color: black;border-style: dotted; text-align: center;} 
+        iframe {width:560px; height:315px}
+
+    button {background-color: rgba(219, 155, 155, 0.575); padding: 2px; text-align: center;}
+
+    footer {margin: 0; margin-top:10px; padding:2em; background-color: rgb(109, 97, 91)}
+     footer p {font-size: 10pt;}
+}
