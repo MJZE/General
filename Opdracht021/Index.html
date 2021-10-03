@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess the Number</title>
+    </head>
+    <body>
+       <h1>Guess the number game</h1>
+       
+       <p id="demo"></p>
+
+       <script>
+           let person = prompt("Welkom! Wat is je naam?", "Pacman");
+            if (person != null) {alert("Hey " + person)}
+       
+            let number = Math.floor(Math.random()*26)
+        
+        for (i=1; i<6; i++) {
+            let guess = prompt("Voer een nummer in van 0 tot 25 om te beginnen met raden...", " ")
+
+        if (number == guess){
+            console.log(number);
+            alert("Gefeliciteerd, je hebt gewonnen"); 
+            alert("Dag "+ person)
+            i=5} 
+        else  {
+            console.log(number)
+            console.log("Dat is niet correct");
+            if(i<5){
+            alert(`Helaas, dat was niet het juiste nummer. Dit was je ${i}e poging van de vijf, probeer het nog een keer. Voer een nummer in van 0 tot 25.`)} 
+            else {alert(`Dit was je vijfde poging. Helaas, hebt niet het juiste nummer weten te raden. Het nummer wat we zochten was: ${number}. Het spel is nu afgelopen`)} 
+            }}
+  
+       
+      </script>
+
+    </body>
+</html>
