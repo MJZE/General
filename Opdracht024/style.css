@@ -1,0 +1,97 @@
+.menu {
+    width: 60px;
+    height: 60px;
+    background-color: #f94f36;
+    background-image: url("https://cdn.talentlms.com/winc/1598355306_hamburger_menu.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2Nkbi50YWxlbnRsbXMuY29tXC93aW5jXC8xNTk4MzU1MzA2X2hhbWJ1cmdlcl9tZW51LnBuZyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTYzMzY1MTIwMH19fV19&Signature=Y32H6ufU%2FtdQAeLg0pVTW0TrYcD-denEYqa7xmRZj9fYgGfPaZAIJg%2F7V50LBJpD5dhEAFg-gyBrvWEvHAknj%2FaQeUe3sQHKLnlYMHPiV6a4wUW20ho2hePsvotQxs-l4Xq2Zhj%2FLPu8GAHdoGuTRBw859R2cCC-5Aw1kW2QxQhAhoqp8iSYA2vtV-z549BogzqcMq8hVBaPBOLkXuNXQYo-dpF71j5Da1%2F9zpx3rZ0jrfkJc1Rp4E0SHrwCz-l3UkUNd0MxjY6Rry9cX1clMIQOAIiWpK%2F19Aa5XIQIGv7oZ8-CLn76znK3wmXz9cuVPq7mXy4%2FSdT--ko-eW14Jg__&Key-Pair-Id=APKAJDCWVQTW4P3KI3XA");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.menu:hover {
+opacity: 0.7   ;
+}
+
+.nav {
+    left:0;
+    bottom: 0;
+    width: 50px;
+    height: calc(100vh - 60px);
+    padding: 0 5px;
+    padding-top: 15px;
+    background-color:#f5b8a9 ;
+    z-index: 1000;
+    visibility: hidden;
+}
+.nav-color {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.nav-color li {
+    line-height: 30px;
+    list-style: none ;
+}
+
+.nav-color li:hover {
+    background-color: blanchedalmond;
+}
+
+.nav-color li a {
+    display: block;
+    height: 30px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+#Red {
+    background-color: red;
+}
+#Orange {
+    background-color: orange;
+}
+#Yellow {
+    background-color: yellow;
+}
+#Green{
+    background-color: green;
+}
+#Blue {
+    background-color: blue;
+}
+#Indigo {
+    background-color: indigo;
+}
+#Violet {
+    background-color: violet;
+}
+
+.red-background {
+    background-color: red;
+    }
+.orange-background {
+    background-color: orange;
+}
+.yellow-background {
+    background-color: yellow;
+}
+.green-background {
+    background-color: green;
+}
+.blue-background {
+    background-color: blue;
+    }
+.indigo-background {
+    background-color: indigo;    
+}
+.violet-background {
+    background-color: violet;
+}
